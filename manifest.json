@@ -1,0 +1,8 @@
+{
+  "short_name": "Lightsout Game",
+  "name": "Lightsout game created using React JS",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
