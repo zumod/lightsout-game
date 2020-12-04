@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Liberty";
+	src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf");
+}
+
+.neon-blue {
+	font-family: 'Liberty';
+	font-weight: 100;
+	font-size: 5rem;
+	flex-flow: row;
+	color: #fff;
+	text-shadow: 0 0 2rem #33e1ed;
+	display: inline-block;
+}
+
+.info {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #363651;
+}
+
+.Board {
+	margin: 0 auto;
+}
+
+.score {
+	color: #33e1ed;
+	font-size: 21px;
+}
+
+.letter {
+	-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+	transform: translate(-0.2rem, 1rem) rotate(10deg);
+	-webkit-animation: flicker 2s ease-in-out infinite alternate;
+	animation: flicker 2s ease-in-out infinite alternate;
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	5% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	5.5% {
+		opacity: 0;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	6% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	6.5% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	7% {
+		opacity: 0;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	8% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+	50% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(13deg);
+		transform: translate(-0.2rem, 1rem) rotate(13deg);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate(-0.2rem, 1rem) rotate(10deg);
+		transform: translate(-0.2rem, 1rem) rotate(10deg);
+	}
+}
