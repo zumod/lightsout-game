@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Board.css';
 import Cell from '../Cell/Cell';
-import win from './assets/win.mp3';
+import win from '../../assets/win.mp3';
 
 const winSound = new Audio(win);
 const cellClick = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound2.mp3');
